@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Copperplate Gothic Light, sans-serif;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+    background-color: #4968b8;
+}
+
+/* Header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7f93b6;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d5e4f9;
+    font-weight: bold;
+}
+
+.order-now a {
+    background-color: #2874a6;
+    color: #d5e4f9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 25px; /* Menambah jarak antara heading dan konten di bawahnya */
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('burger.jpg') center/cover no-repeat;
+    text-align: center;
+    color: #dad3f2;
+    padding: 100px 20px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn-hero {
+    background-color: #2874a6;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Menu Section */
+.menu-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.menu-item img {
+    width: 50%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi smooth */
+}
+
+.menu-item img:hover {
+    transform: scale(1.1); /* Memperbesar sedikit gambar saat di-hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Memberikan efek bayangan */
+}
+
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #9897d0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #9792b0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.review {
+    background-color: #caa7dd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+/* Contact Form Section */
+.contact-form {
+    background-color: #9897d0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #69779a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer-container {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
